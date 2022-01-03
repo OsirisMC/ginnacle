@@ -1,0 +1,51 @@
+name: ginnacle3flutter
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.4
+  http: ^0.12.0
+  foldable_sidebar: ^1.0.0
+  table_calendar: ^3.0.3
+  flutter_combo_box: ^0.0.2+5
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/ginnacle-logo.png
+
+  fonts:
+    - family: Franklin Gothic
+      fonts:
+        - asset: lib/constants/fonts/FRADM.TTF
+        - asset: lib/constants/fonts/FRADMCN.TTF
+        - asset: lib/constants/fonts/FRADMIT.TTF
+        - asset: lib/constants/fonts/FRAHV.TTF
+
+    - family: Berlin Sans
+      fonts:
+        - asset: lib/constants/fonts/BRLNSB.TTF
+        - asset: lib/constants/fonts/BRLNSDB.TTF
+        - asset: lib/constants/fonts/BRLNSR.TTF
+
+    - family: Lucida Sans
+      fonts:
+        - asset: lib/constants/fonts/l_10646.ttf
+
+
+
